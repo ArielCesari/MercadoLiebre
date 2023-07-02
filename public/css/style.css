@@ -17,14 +17,27 @@
 
 }
 
-header {
+.main-header {
     background-color: var(--color-amarillo);
+    padding: 20px;
 
 
+}
+.nav-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-bar{
     display: none;
+    
+    padding: 5px 0;
+    font-size: 17px;
+}
+.compra-en-cuotas{
+    font-weight: 400;
+    text-align: center;
 }
 
 
@@ -64,16 +77,22 @@ header {
     display: flex;
     text-align: center;
     align-items: center;
+    margin: 10%;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 .enlace-icono {
     display: flex;
     align-items: center;
+   
 }
+
 
 .enlace-icono a {
     margin-right: 5px;
 }
+ 
 
 a {
     text-decoration: none;
@@ -109,7 +128,7 @@ main {
     overflow-x: scroll;
 }
 
-.imagenes-section1 {
+.imagenes-section {
 
     width: 100%;
     flex-basis:200%;
@@ -147,6 +166,26 @@ main {
 
 }
 
+.contenedor-header{
+    display: flex;
+    align-items: stretch;
+}
+
+.search{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 11%;
+    margin-left: 5%;
+
+}
+
+
+
+.logo{
+    width: 50%;
+    margin-top: 10%;
+}
 
 
 /* Medias queries */
