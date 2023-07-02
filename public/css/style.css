@@ -17,25 +17,29 @@
 
 }
 
+/* home.html */
+
 .main-header {
     background-color: var(--color-amarillo);
     padding: 20px;
 
 
 }
+
 .nav-bar ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-bar{
+.nav-bar {
     display: none;
-    
+
     padding: 5px 0;
     font-size: 17px;
 }
-.compra-en-cuotas{
+
+.compra-en-cuotas {
     font-weight: 400;
     text-align: center;
 }
@@ -44,7 +48,7 @@
 .imagenes-section {
 
     width: 100%;
-    
+
 }
 
 .container-footer {
@@ -85,14 +89,14 @@
 .enlace-icono {
     display: flex;
     align-items: center;
-   
+
 }
 
 
 .enlace-icono a {
     margin-right: 5px;
 }
- 
+
 
 a {
     text-decoration: none;
@@ -121,7 +125,7 @@ main {
     background-color: var(--color-gris-claro)
 }
 
-.contendor-main{
+.contendor-main {
 
     display: flex;
     flex-direction: column;
@@ -131,8 +135,8 @@ main {
 .imagenes-section {
 
     width: 100%;
-    flex-basis:200%;
-    
+    flex-basis: 200%;
+
 }
 
 
@@ -145,10 +149,10 @@ main {
 }
 
 
-.contenedor-precio-descuento{
+.contenedor-precio-descuento {
     display: flex;
     justify-content: center;
-    
+
 }
 
 .precios {
@@ -162,16 +166,16 @@ main {
     width: 70%;
     color: var(--color-verde);
     font-weight: bold;
-    
+
 
 }
 
-.contenedor-header{
+.contenedor-header {
     display: flex;
     align-items: stretch;
 }
 
-.search{
+.search {
     width: 50%;
     height: 30px;
     border-radius: 5px;
@@ -182,10 +186,53 @@ main {
 
 
 
-.logo{
+.logo {
     width: 50%;
     margin-top: 10%;
 }
+
+
+/* register.html */
+
+.form-register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    background-color: var(--color-gris-claro);
+
+}
+
+.opcion-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+  }
+
+  .button-container {
+    display:flex;
+    justify-content:center;
+    margin-top: 10px ;
+  }
+
+  input{
+   margin-top:10px;
+    
+  }
+
+  .form-register label,
+.form-register input,
+.form-register h3 {
+  margin-bottom: 10px;
+}
+
+
+
+
+
 
 
 /* Medias queries */
@@ -201,11 +248,11 @@ main {
         display: block
     }
 
-    .burger-menu{
+    .burger-menu {
         display: none;
     }
 
-    .nav-bar{
+    .nav-bar {
         display: block;
     }
 
@@ -224,10 +271,12 @@ main {
     .descripciones {
         display: block
     }
-    .burger-menu{
+
+    .burger-menu {
         display: none;
     }
-    .nav-bar{
+
+    .nav-bar {
         display: block;
     }
 

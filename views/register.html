@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <title>Registro de usuario</title>
+</head>
+
+<body>
+
+    <form class="form-register" action="/">
+
+        <h3 class="h3-form">Datos personales</h3>
+
+        <label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+
+        <label for="nombreUsuario"></label>
+        <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuario">
+
+        <label for="email"></label>
+        <input type="email" name="email" id="email" placeholder="E-mail">
+
+        <h3 class="h3-form">Fecha de nacimiento</h3>
+
+        <label for="nacimiento"></label>
+        <input type="date" name="nacimiento" id="nacimiento" placeholder="Fecha de nacimiento">
+
+        <label for="domicilo"></label>
+        <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+
+        <h3 class="h3-form">Perfil de Usuario</h3>
+
+        <div class="opcion-container">
+
+            <input type="radio" name="opcion" id="opcionComprador" value="Comprador">
+            <label for="opcionComprador">Comprador</label>
+
+            <input type="radio" name="opcion" id="opcionVendedor" value="Vendedor">
+            <label for="opcionVendedor">Vendedor</label>
+
+        </div>
+
+        <h3 class="h3-form">Intereses</h3>
+
+        <input type="checkbox" name="" id="opcionElectro">
+        <label for="opcionElectro">Electro</label>
+
+        <input type="checkbox" name="" id="opcionModa">
+        <label for="opcionModa">Moda</label>
+
+        <input type="checkbox" name="" id="opcionHogar">
+        <label for="opcionHogar">Hogar</label>
+
+        <input type="checkbox" name="" id="opcionJugueteria">
+        <label for="opcionJugueteria">Juguetería</label>
+
+        <input type="checkbox" name="" id="opcionVidaSana">
+        <label for="opcionVidaSana">Vida sana</label>
+
+        <h3 class="h3-form">Imagen de usuario</h3>
+
+        <input type="file" name="imagenUsuario" id="imagenUsuario">
+
+        <h3 class="h3-form">Contraseña</h3>
+
+        <label for="contraseña1"></label>
+        <input type="password" name="contraseña1" id="contraseña1" placeholder="Contraseña">
+
+        <label for="contraseña2"></label>
+        <input type="password" name="contraseña2" id="contraseña2" placeholder="Repetir contraseña">
+
+        <div class=" button-container">
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </div>
+
+    </form>
+
+
+
+
+
+</body>
+
+</html>
