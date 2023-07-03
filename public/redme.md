@@ -10,3 +10,9 @@ para la versión desktop?
 
 Poner el icono de busqueda dentro del input <i  class="fa-solid fa-magnifying-glass"></i>
 
+
+Ver Estilos css de estos elementos 
+ <ul class="left-navbar">
+
+ <ul class="right-navbar">
+

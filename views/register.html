@@ -17,75 +17,161 @@
 </head>
 
 <body>
+    <header class="main-header">
 
-    <form class="form-register" action="/">
+        <div class="contenedor-header">
 
-        <h3 class="h3-form">Datos personales</h3>
+            <img class="logo" src="images/logo-mercado-liebre.svg" alt="logo">
+            <input class="search" type="search" placeholder="Buscar productos, marcas">
 
-        <label for="nombre"></label>
-        <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
-
-        <label for="nombreUsuario"></label>
-        <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuario">
-
-        <label for="email"></label>
-        <input type="email" name="email" id="email" placeholder="E-mail">
-
-        <h3 class="h3-form">Fecha de nacimiento</h3>
-
-        <label for="nacimiento"></label>
-        <input type="date" name="nacimiento" id="nacimiento" placeholder="Fecha de nacimiento">
-
-        <label for="domicilo"></label>
-        <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
-
-        <h3 class="h3-form">Perfil de Usuario</h3>
-
-        <div class="opcion-container">
-
-            <input type="radio" name="opcion" id="opcionComprador" value="Comprador">
-            <label for="opcionComprador">Comprador</label>
-
-            <input type="radio" name="opcion" id="opcionVendedor" value="Vendedor">
-            <label for="opcionVendedor">Vendedor</label>
+            <h2 class="compra-en-cuotas"><i class="fa-solid fa-hand-holding-dollar"></i>
+                Comprá en cuotas y sin tarjeta de crédito </h2>
 
         </div>
 
-        <h3 class="h3-form">Intereses</h3>
+        <br>
+        <nav class="nav-bar">
 
-        <input type="checkbox" name="" id="opcionElectro">
-        <label for="opcionElectro">Electro</label>
+            <ul class="left-navbar">
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+            <br>
 
-        <input type="checkbox" name="" id="opcionModa">
-        <label for="opcionModa">Moda</label>
+            <ul class="right-navbar">
+                <li>
+                    <div class="enlace-icono">
+                        <a href="/register">Creá tu cuenta</a>
+                        <i class="fa-regular fa-id-card"></i>
+                    </div>
+                </li>
 
-        <input type="checkbox" name="" id="opcionHogar">
-        <label for="opcionHogar">Hogar</label>
+                <li>
+                    <div class="enlace-icono">
+                        <a href="/login">Ingresá</a>
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="enlace-icono">
+                        <a href="#">Mis compras</a>
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </div>
 
-        <input type="checkbox" name="" id="opcionJugueteria">
-        <label for="opcionJugueteria">Juguetería</label>
+                </li>
+            </ul>
 
-        <input type="checkbox" name="" id="opcionVidaSana">
-        <label for="opcionVidaSana">Vida sana</label>
 
-        <h3 class="h3-form">Imagen de usuario</h3>
 
-        <input type="file" name="imagenUsuario" id="imagenUsuario">
+        </nav>
 
-        <h3 class="h3-form">Contraseña</h3>
+        <a href="#" class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </a>
 
-        <label for="contraseña1"></label>
-        <input type="password" name="contraseña1" id="contraseña1" placeholder="Contraseña">
+    </header>
+    <main>
 
-        <label for="contraseña2"></label>
-        <input type="password" name="contraseña2" id="contraseña2" placeholder="Repetir contraseña">
+        <form class="form-register" action="/">
 
-        <div class=" button-container">
-            <button type="submit">Enviar</button>
-            <button type="reset">Borrar</button>
-        </div>
+            <h3 class="h3-form">Datos personales</h3>
 
-    </form>
+            <label for="nombre"></label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+
+            <label for="nombreUsuario"></label>
+            <input type="text" name="nombreUsuario" id="nombreUsuario" placeholder="Nombre de usuario">
+
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+
+            <h3 class="h3-form">Fecha de nacimiento</h3>
+
+            <label for="nacimiento"></label>
+            <input type="date" name="nacimiento" id="nacimiento" placeholder="Fecha de nacimiento">
+
+            <label for="domicilo"></label>
+            <input type="text" name="domicilio" id="domicilio" placeholder="Domicilio">
+
+            <h3 class="h3-form">Perfil de Usuario</h3>
+
+            <div class="opcion-container">
+
+                <input type="radio" name="opcion" id="opcionComprador" value="Comprador">
+                <label for="opcionComprador">Comprador</label>
+
+                <input type="radio" name="opcion" id="opcionVendedor" value="Vendedor">
+                <label for="opcionVendedor">Vendedor</label>
+
+            </div>
+
+            <h3 class="h3-form">Intereses</h3>
+
+            <input type="checkbox" name="" id="opcionElectro">
+            <label for="opcionElectro">Electro</label>
+
+            <input type="checkbox" name="" id="opcionModa">
+            <label for="opcionModa">Moda</label>
+
+            <input type="checkbox" name="" id="opcionHogar">
+            <label for="opcionHogar">Hogar</label>
+
+            <input type="checkbox" name="" id="opcionJugueteria">
+            <label for="opcionJugueteria">Juguetería</label>
+
+            <input type="checkbox" name="" id="opcionVidaSana">
+            <label for="opcionVidaSana">Vida sana</label>
+
+            <h3 class="h3-form">Imagen de usuario</h3>
+
+            <input type="file" name="imagenUsuario" id="imagenUsuario">
+
+            <h3 class="h3-form">Contraseña</h3>
+
+            <label for="contraseña1"></label>
+            <input type="password" name="contraseña1" id="contraseña1" placeholder="Contraseña">
+
+            <label for="contraseña2"></label>
+            <input type="password" name="contraseña2" id="contraseña2" placeholder="Repetir contraseña">
+
+            <div class=" button-container">
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+
+        </form>
+
+    </main>
+
+    <footer>
+
+        <section class="container-footer">
+
+            <i class="fa-solid fa-credit-card"></i>
+            <h4>Pagá con tarjeta o en efectivo</h4>
+            <p class="cuerpos-texto">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+
+
+            <i class="fa-solid fa-gift"></i>
+            <h4>Envío gratis desde $ 2.500</h4>
+            <p class="cuerpos-texto">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+
+
+            <i class="fa-solid fa-user-shield"></i>
+            <h4>Seguridad, de principio a fin</h4>
+            <p class="cuerpos-texto">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+
+
+            <p class="cuerpos-texto">Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+
+        </section>
+
+    </footer>
 
 
 
