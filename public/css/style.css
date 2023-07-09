@@ -13,7 +13,7 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    
 
 }
 
@@ -24,7 +24,6 @@
     background-color: var(--color-amarillo);
     padding: 20px;
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
 }
 
@@ -38,7 +37,7 @@
     text-decoration: none;
     color: #222222;
     display: inline-block;
-    padding: 5px 0px;
+    padding: 3px 0px;
     font-size: 17px;
 }
 
@@ -50,10 +49,10 @@
 }
 
 .compra-en-cuotas {
-    font-size: 80%;
+    font-size: 14.5px;
     font-weight: 10px;
     text-align: center;
-    margin-top:10px;
+    margin-top:3vw;
     
 }
 
@@ -189,21 +188,21 @@ main {
 .search {
     width: 15wv;
     height: 10wv;
-    margin-top: 5%;
-    margin-left: 5%;
+    margin-top: 5vw;
+    margin-left: 5vw;
 
 }
 
 .fa-magnifying-glass{
 
     background-color: var(--color-gris-claro);
-    padding: 2px;
+    padding: 0.2vw;
    
 }
 
 
 .logo {
-    width: 40vw;
+    width: 35vw;
     margin-top: 3vw;
 }
 
@@ -311,16 +310,18 @@ input {
     
 
     .nav-bar{
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .nav-bar li{
-        margin: 0 10px; 
+        margin: 0 15px; 
     }
 
     .nav-bar li{
         font-size: 19px; 
     }
+
+   
 
 
 
@@ -365,8 +366,13 @@ input {
 
     .nav-bar li{
         font-size: 19px; 
+
+        
     }
 
+    .search{
+        width: 18vw ;
+    }
 
 
 }
