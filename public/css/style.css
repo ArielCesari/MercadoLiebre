@@ -143,7 +143,7 @@ main {
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
 
 }
@@ -177,19 +177,19 @@ main {
 
 .contenedor-precio-descuento {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly
+    
 
 }
 
 .precios {
-    font-size: 18px;
-    width: 30%;
+    font-size: 15px;
+  
 
 }
 
 .descuentos {
     font-size: 16px;
-    width: 70%;
     color: var(--color-verde);
     font-weight: bold;
 
